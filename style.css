@@ -144,7 +144,10 @@ background-color: rgb(243, 243, 132);
         width: 100%;
     }
 .nav_item + .nav_item{
-    margin-left: .5rem;
+    margin: .4rem;
+}
+.special_one{
+    margin: .4rem;
 }
 .paddi{
     padding: .5rem .5rem;
