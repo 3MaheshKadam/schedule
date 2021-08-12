@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+:root{
+    /* --color:rgb(14, 250, 250); */
+    --color:rgb(41, 124, 124);
+}
+:root{
+    --colo:rgb(56, 245, 220);
+}
+.next{
+    color:var(--colo);
+}
+h3{
+    color: var(--colo);
+}
+span{
+    color: var(--color);
+}
+.container{
+    width:70%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+    background-color: rgb(41, 124, 124);
+    padding: 2rem 0;
+}
+
+.logo{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: white;
+}
+.logo:hover{
+    color: var(--colo);
+}
+nav h3{
+    text-align: end;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: hidden;
+}
+.nav_list{
+    display: flex;
+    align-items: flex-end;
+}
+.nav_item{
+    list-style: none;
+    margin-left: auto;
+}
+.nav_item a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: .7rem;
+}
+.nav_item a:hover{
+    color: var(--colo);
+}
+.nav_item + .nav_item{
+    margin-left: 2rem;
+}
+.large{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:rgb(41, 124, 124);
+}
+.sub_large{
+    font-size: 1.2rem;
+    line-height: 2;
+}
+.main{
+    background: linear-gradient(to left, #b3ccd8 , #f7a2dc);
+    background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+    background: linear-gradient(to right, #bbf1cb, #f6f1d3);
+}
+.center{
+    text-align: center;
+    padding: 5px 0;
+}
+table{
+    padding: 30px 0;
+}
+.tr{
+padding-top: 2rem;
+background-color: rgb(243, 243, 132);
+}
+.paddi{
+    padding:.5rem 3rem;
+}
+.tdd{
+    padding: 0 3rem;
+}
+@media(max-width:909px){
+    .container{
+        width: 80%;
+    }
+}
+@media(max-width:810px){
+    .container{
+    width: 90%;
+    }
+}
+@media(max-width:714px){
+    .container{
+        width: 95%;
+    }
+}
+@media(max-width:678px){
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav h3{
+        text-align: center;
+    }
+}
+@media(max-width:402px){
+.nav_item + .nav_item{
+    margin-left: .5rem;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
