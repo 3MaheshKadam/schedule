@@ -124,6 +124,9 @@ background-color: rgb(243, 243, 132);
     }
 }
 @media(max-width:678px){
+    .container{
+        width: 100%;
+    }
     .row{
         display: flex;
         flex-direction: column;
@@ -132,10 +135,19 @@ background-color: rgb(243, 243, 132);
     .nav h3{
         text-align: center;
     }
+    .paddi{
+        padding: .5rem 1rem;
+    }
 }
 @media(max-width:402px){
+    .container{
+        width: 100%;
+    }
 .nav_item + .nav_item{
     margin-left: .5rem;
+}
+.paddi{
+    padding: .5rem .5rem;
 }
 }
 
